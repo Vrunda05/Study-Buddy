@@ -1,0 +1,9 @@
+Machine Learning Notes
+
+Machine learning is a part of artificial intelligence where a computer learns patterns from data instead of being given fixed rules. The three main types are supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled data, unsupervised learning finds hidden groups in unlabeled data, and reinforcement learning learns through rewards and penalties.
+
+Supervised learning has two kinds of problems. Classification predicts a category, such as spam or not spam. Regression predicts a number, such as the price of a used car. Common metrics are accuracy for classification and MAE and R2 score for regression.
+
+Overfitting happens when a model memorizes the training data, including its noise, and performs badly on new data. Underfitting happens when a model is too simple to learn the pattern. A big gap between the training score and the test score is a sign of overfitting. Data leakage happens when information from the answer slips into the input features, which makes results look unrealistically good.
+
+An LLM, or large language model, is a deep learning model trained on huge amounts of text to predict the next token. RAG, or retrieval-augmented generation, gives the model extra documents so it can answer from them. In the Study Buddy project, the bot answers from these notes, and the course code name for the project is Project Falcon.
